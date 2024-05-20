@@ -18,7 +18,7 @@ const ADD_TODO = gql`
   mutation Mutation($input: CreateTodoInput!) {
     createTodo(input: $input) {
       status
-      description
+     description
     }
   }
 `;
